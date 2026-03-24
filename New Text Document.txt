@@ -1,0 +1,74 @@
+<div>
+<?php
+
+// Arrays in php type 1
+
+$foods= array("Pizza", "Burger", "Pasta", "Sushi");
+print_r($foods);
+var_dump($foods);
+echo '<br>';
+echo $foods [1];
+echo '<br>';
+echo $foods [3];
+echo '<br>';
+
+//Arrays in php type 2
+
+$flowers = ["Rose", "Lily", "Tulip", "Daisy"];
+print_r($flowers);
+echo '<br>';
+echo $flowers [0];
+echo '<br>';
+
+
+// Associative arrays in php
+$capitals = [
+    "USA" => "Washington, D.C.",
+    "France" => "Paris",
+    "Japan" => "Tokyo",
+    "India" => "New Delhi"
+];
+var_dump($capitals);
+echo '<br>';
+echo '<br>';echo '<br>';echo '<br>';
+
+print_r($capitals);
+echo '<br>';
+echo $capitals["France"];
+echo '<br>';
+echo $capitals["India"];
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+
+//multi-dimensional arrays in php
+$students = [
+    [
+        "name" => "Alice",
+        "age" => 20,
+        "major" => "Computer Science"
+    ],
+    [
+        "name" => "Bob",
+        "age" => 22,
+        "major" => "Mathematics"
+    ],
+    [
+        "name" => "Charlie",
+        "age" => 21,
+        "major" => "Physics"
+    ]
+];
+print_r($students);
+echo '<br>';
+
+echo $students[0]["name"];
+echo '<br>';    
+echo $students[1]["major"];
+echo '<br>';
+
+
+?>
+</div>
