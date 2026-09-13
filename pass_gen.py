@@ -12,7 +12,7 @@ def generate_password(length):
 
     if length < 12:
         print("Minimum length of 8 is required. Setting length to 12.")
-        length = 8 
+        length = 12 
 
     required_chars = [
         random.choice(lower),       
