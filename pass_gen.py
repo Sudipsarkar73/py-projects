@@ -10,8 +10,8 @@ def generate_password(length):
     
     all_chars = lower + upper + digits + symbols
 
-    if length < 8:
-        print("Minimum length of 8 is required. Setting length to 8.")
+    if length < 12:
+        print("Minimum length of 8 is required. Setting length to 12.")
         length = 8 
 
     required_chars = [
